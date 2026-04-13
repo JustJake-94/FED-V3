@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jake Laan">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>De officiële website voor Nintendo</title>
+
+	<link href="style.css" rel="stylesheet">
+
+	<link rel="icon" type="image/svg+xml" href="images/favicon.png">
+</head>
+
+<body>
+<header>  
+    
+  
+  <button class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  
+  <a href="#"><img src="images/nintendo_logo.png" alt="Nintendo Logo"></a>
+    
+<label>
+  <input type="radio" name="theme" value="auto" checked> auto
+</label>
+
+<label>
+  <input type="radio" name="theme" value="light"> licht
+</label>
+
+<label>
+  <input type="radio" name="theme" value="dark"> donker
+</label> 
+
+    <div class="header-links">
+        <a href="#"><img src="images/nav_Search_icon.png" alt="Zoek icoontje"> Zoeken</a>
+        <a href="#"><img src="images/nav_wishlist_icon.png" alt="Wishlist icoontje"> Wenslijst</a>
+        <a href="#"><img src="images/nav_login_icon.png" alt="Login icoontje"> Inloggen</a>
+    </div>
+</header>
+
+/* Chatgpt- Prompt: "Hoe maak ik een verticale navigatie balk?"------------------------------------------------ */
+
+<nav class="sidebar">
+    <ul>
+        <li><a href="#"><img src="images/nav_star_icon.png" alt="Ster">Games</a></li>
+        <li><a href="#"><img src="images/nav_DPad_icon.png" alt="Dpad">Hardware</a></li>
+        <li><a href="#"><img src="images/nav_NSwitch_icon.png" alt="Nintendo Switch Logo">Nintendo Switch Online</a></li>
+        <li><a href="#"><img src="images/nav_shop_icon.png" alt="Winkeltas">Nintendo eShop</a></li>
+        <li><a href="#"><img src="images/nav_MyStore_icon.png" alt="My Nintendo store logo">My Nintendo Store</a></li>
+        <li><a href="#"><img src="images/nav_QA_icon.png" alt="Vraagteken">Support</a></li>
+        <li><a href="#"><img src="images/nav_news_icon.png" alt="nieuwsbrief">Nieuws</a></li>
+        <li><a href="#"><img src="images/nav_group_icon.png" alt="Groep">Blijf in contact</a></li>
+        <li><a href="#">...</a></li>
+    </ul>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+  <h2>Hardware</h2>
+   <h3>Nintendo Switch 2</h3>
+    <a href="Overzicht.html">Overzicht</a>
+    <a href="Online.html">Functies</a>
+    <a href="#">GameChat</a>
+    <a href="#">GameShare</a>
+    <a href="#">Nintendo Switch 2 Games</a>
+    <a href="#">Nintendo Switch 2-accessoires</a>
+    <a href="#">Nintendo Switch 2-bundels</a>
+    <a href="#">Gegevens overdracht van een Nintendo Switch</a>
+   <h3>Nintendo Switch-familie</h3>
+    <a href="#">Overzicht</a>
+    <a href="#">Nintendo Switch - OLED-model</a>
+    <a href="#">Nintendo Switch</a>
+    <a href="#">Nintendo Switch Lite</a>
+    <a href="#">Welke Nintendo Switch past het beste bij je?</a>
+</div>
+
+/*------------------------------------------------------------------*/
+
+
+<main>
+   
+<div class="carousel">
+  <button class="prev">❮</button>
+<img src="images/16x9_HP_NSwitch2_MetroidPrime4BeyondNS2Ed_HeroShelf_textless.jpg" alt="carousel image" class="carousel-image">
+  <button class="next">❯</button>
+</div>
+
+
+
+<section class="updates"> 
+  <h2>Updates</h2>
+
+  <div class="update-main">
+    <img src="images/16x9_YT_NSwitch_MarioTennisFever_thumbnail.jpg" alt="Preview Mario Tennis Fever">
+
+    <div class="update-text">
+      <a href="https://youtu.be/RSyoMsWRL9I?si=YqlS65AR0tT2wXxA">Youtube</a>
+      <h3><b>De nieuwste trailer voor Mario Tennis Fever is er!</b></h3>
+      <p>
+        Bekijk in deze overviewtrailer waar je allemaal mee aan de slag kunt
+        in Mario Tennis Fever, dat op 12 februari naar de Nintendo Switch 2 komt.
+      </p>
+    </div>
+  </div>
+
+<div class="updatesub">
+
+  <article class="update-card">
+    <img src="images/16x9_FireEmblem_noracetrack.jpg" alt="Poster Fire Emblem Path of Radiance"> 
+     <p>Games</p>
+    <h4>Fire Emblem: Path of Radiance - Nu Beschikbaar!</h4>
+  </article>
+
+  <article class="update-card">
+    <img src="images/16x9_HP_NSwitch2_UpcomingGames_2026_NL_nl.jpg" alt="Games die in 2026 verschijnen">
+     <p>Nieuws</p>
+    <h4>Games die in 2026 verschijnen</h4>
+  </article>
+
+  <article class="update-card">
+    <img src="images/16x9_Other_TryForFree2025_NL.jpg" alt="Probeer deze games gratis!">
+     <p>Nieuws</p>
+    <h4>Demo's en games die je gratis kunt starten</h4>
+  </article>
+
+  <article class="update-card">
+    <img src="images/16x9_Other_CosyGames2025_NL.jpg" alt="Knusse games">
+     <p>Nieuws</p>
+    <h4>Vind de perfecte knusse game voor jou!</h4>
+  </article>
+
+</div>
+</section>
+
+
+<section class="games">
+
+<h2>Games</h2>
+
+<article class="game-card"> 
+ <a href="#"><img src="images/1x1_NSwitch2_MarioKartWorld.jpg" alt="Poster voor Mario Kart World"></a>
+  <p>Nintendo Switch 2 | 05-06-2025</p>
+ <h3>Mario Kart World</h3>
+</article>
+
+<article class="game-card"> 
+ <a href="#"><img src="images/1x1_NSwitch2_DonkeyKongBananza_Launch_image1600w.jpg" alt="Poster voor Donkey Kong Bananza"></a>
+  <p>Nintendo Switch 2 | 17-07-2025</p>
+ <h3>Donkey Kong Bananza</h3>
+</article>
+
+<article class="game-card"> 
+ <a href="#"><img src="images/1x1_NSwitch_SuperMarioGalaxy1And2_image1600w.jpg" alt=" Poster voor Super Mario Galaxy + Super Mario Galaxy 2"></a>
+  <p>Nintendo Switch | 02-10-2025</p>
+ <h3>Super Mario Galaxy + Super Mario Galaxy 2</h3>
+</article>
+
+<article class="game-card"> 
+ <a href="#"><img src="images/1x1_NSwitch2_KirbyAirRiders_02_image1600w.jpg" alt="Poster voor Kirby Air Riders"></a>
+  <p>Nintendo Switch 2 | 20-11-2025</p>
+ <h3>Kirby Air Riders</h3>
+</article>
+
+</Section>
+ 
+<section class="apps">
+
+<h2>Apps voor Smartapparaten</h2>
+
+<article class="apps-card"> 
+ <img src="images/1x1_SmartDevice_MNSApp_NL_nl_image1600w.jpg" alt="Poster voor Nintendo Store App">
+  <p>Tablets en smartphones | 05-11-2025</p>
+ <h3>Nintendo Store</h3>
+</article>
+
+<article class="apps-card"> 
+ <img src="images/1x1_SmartDevice_NintendoToday_NL_nl_image1600w.jpg" alt=" Poster voor Nintendo Today App">
+  <p>Tablets en smartphones | 27-03-2025</p>
+ <h3>Nintendo Today!</h3>
+</article>
+
+<article class="apps-card"> 
+ <img src="images/1x1_SmartDevice_NSO_NintendoMusic_Announce_GB_en_image500w.jpg" alt=" Poster voor Nintendo Music App">
+  <p>Tablets en smartphones | 31-10-2024</p>
+ <h3>Nintendo Music</h3>
+</article>
+
+<article class="apps-card"> 
+ <img src="images/1x1_FireEmblemShadows_GBen_image500w.jpg" alt="Poster voor Fire Emblem Shadows">
+  <p>Nintendo Switch 2 | 25-09-2025</p>
+ <h3>Kirby Air Riders</h3>
+</article>
+
+</Section>
+
+<div class="store-wrapper">
+
+  <section class="store">
+
+<h2>My Nintendo Store</h2>
+
+<img src="images/my-nintendo-store-logo.png" alt=" My Nintendo Store Logo" class="store-logo">
+
+<article class="store-card"> 
+ <img src="images/1x1_PokemonLegendsZA_MNS_image500w.jpg" alt=" Nintendo Switch 2 en Pokémon Legends Z-A Bundel">
+  <p>Nintendo Switch 2</p>
+ <h3>Nintendo Switch 2 + Pokémon Legends Z-A - Nintendo Switch 2 Edition</h3>
+</article>
+
+<article class="store-card"> 
+ <img src="images/1x1_NintedoSwitch2_Hardware_MarioKartBundle_pkg_MNS_2000x2000.jpg" alt="Nintendo Switch 2 en Mario Kart World Bundel"> 
+  <p>Nintendo Switch 2</p>
+ <h3>Nintendo Switch 2 + Mario Kart World</h3>
+</article>
+
+<article class="store-card"> 
+ <img src="images/1x1_NintedoSwitch2_Hardware_pkg_MNS_2000x2000.jpg" alt="Nintendo Switch 2 verpakking">
+  <p>Nintendo Switch 2</p>
+ <h3>Nintendo Switch 2</h3>
+</article>
+
+<article class="store-card"> 
+ <img src="images/1x1_NSwitch2_DonkeyKongBananza_Launch_image1600w.jpg" alt="Poster voor Donkey Kong Bananza">
+  <p>Nintendo Switch 2</p>
+ <h3>Donkey Kong Bananza</h3>
+</article>
+
+
+<button class="store-button">
+  Naar de My Nintendo Store gaan
+</button>
+
+</Section>
+
+</div>
+
+<section class="hardware">
+
+<h2>Hardware</h2>
+
+<article class="hardware-card-upper">
+  <div class="logo-text">
+    <img src="images/NintendoSwitch2Logo.png" alt="Nintendo Switch 2 Logo">
+    <h3>Samen, waar en wanneer je maar wilt</h3>
+  </div>
+  <img src="images/16x9_NSwitch2_HWKeyvisual_NoIcon_image1280w.jpg" alt="Nintendo Switch 2 afbeelding">
+</article>
+
+<article class="hardware-card-lower">
+  <img src="images/16x9_NSwitch_Hardware_image1280w.jpg" alt="Nintendo Switch afbeelding">
+  <div class="logo-text">
+    <img src="images/Nintendo_switch_logo.png" alt="Nintendo Switch Logo">
+    <h3>Speel je favoriete games altijd, en overal met iedereen</h3>
+  </div>
+</article>
+
+</Section>
+
+<section class="online">
+  <h2>Verkrijgbaar op de Nintendo Switch 2 en Nintendo Switch</h2>
+
+  <article class="online-card"> 
+    <div class="images">
+      <img src="images/CI_518x218_NSwitch_ServiceBanner_NSOLogo_image500w.png" alt="Nintendo Switch Online Logo">
+      <img src="images/CI_518x320_NSwitch_ServiceBanner_NSOChar_image500w.png" alt="Nintendo Switch Online karakters">
+    </div>
+    <div class="text">
+      <h3>Nintendo Switch Online</h3>
+      <p>Haal meer uit je game-ervaring met de betaalde Nintendo Switch Online-lidmaatschapdienst</p>
+    </div>
+  </article>
+
+  <article class="online-card"> 
+    <div class="images">
+      <img src="images/CI_518x218_NSwitch_ServiceBanner_ParentalcontrolLogoTrans_NL_nl_image500w.png" alt="Ouderlijk toezicht Logo">
+      <img src="images/CI_518x280_NSwitch_ServiceBanner_ParentalControlChar_v02_image500w.png" alt="Ouderlijk toezicht Karakters">
+    </div>
+    <div class="text">
+      <h3>Ouderlijk toezicht voor de Nintendo Switch</h3>
+      <p>Zorg voor een leuke, veilige speelomgeving voor je kind</p>
+    </div>
+  </article>
+</section>
+
+</main>
+
+<footer> 
+   
+    <div class="taal-balk">   
+        <img src="images/nintendo_logo.png" alt="Nintendo logo">
+        <span>Nederland</span>   
+    </div>
+    
+   
+    <div class="footer-links">
+       <a href="#"><p>Ouders en ouderlijk toezicht</p></a>
+       <a href="#"><p>Support</p></a>
+       <a href="#"><p>Over het bedrijf</p></a>
+       <a href="#"><p>Vacatures</p></a>
+       <a href="#"><p>Privacybeleid van de website</p></a>
+       <a href="#"><p>Cookie-instellingen</p></a>
+       <a href="#"><p>Wet- en regelgeving</p></a>
+       <a href="#"><p>Dienst beëindigen</p></a>
+       <a href="#"><p>MVO</p></a>
+       <a href="#"><p>Toegankelijkheidsverklaring</p></a>
+       <a href="#"><p>Contact</p></a>
+    </div>
+    
+   
+    <div class="copyright">
+        <p>© Nintendo. 2026</p>
+    </div>
+</footer>
+
+
+	<script defer src="script.js"></script>
+</body>
+	
+</html>

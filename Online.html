@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jake Laan">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>De officiële website voor Nintendo</title>
+
+	<link href="style.css" rel="stylesheet">
+
+	<link rel="icon" type="image/svg+xml" href="images/favicon.png">
+</head>
+
+<body>
+    <header>
+    
+  <button class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  
+  <a href="index.html"><img src="images/nintendo_logo.png" alt="Nintendo Logo"></a>
+    
+<label>
+  <input type="radio" name="theme" value="auto" checked> auto
+</label>
+
+<label>
+  <input type="radio" name="theme" value="light"> licht
+</label>
+
+<label>
+  <input type="radio" name="theme" value="dark"> donker
+</label> 
+
+    <div class="header-links">
+        <a href="#"><img src="images/nav_Search_icon.png" alt="Zoek icoontje"> Zoeken</a>
+        <a href="#"><img src="images/nav_wishlist_icon.png" alt="Wishlist icoontje"> Wenslijst</a>
+        <a href="#"><img src="images/nav_login_icon.png" alt="Login icoontje"> Inloggen</a>
+    </div>
+</header>
+
+/* Chatgpt- Prompt: "Hoe maak ik een verticale navigatie balk?"------------------------------------------------ */
+
+<nav class="sidebar">
+    <ul>
+        <li><a href="#"><img src="images/nav_star_icon.png" alt="Ster">Games</a></li>
+        <li><a href="#"><img src="images/nav_DPad_icon.png" alt="Dpad">Hardware</a></li>
+        <li><a href="#"><img src="images/nav_NSwitch_icon.png" alt="Nintendo Switch Logo">Nintendo Switch Online</a></li>
+        <li><a href="#"><img src="images/nav_shop_icon.png" alt="Winkeltas">Nintendo eShop</a></li>
+        <li><a href="#"><img src="images/nav_MyStore_icon.png" alt="My Nintendo store logo">My Nintendo Store</a></li>
+        <li><a href="#"><img src="images/nav_QA_icon.png" alt="Vraagteken">Support</a></li>
+        <li><a href="#"><img src="images/nav_news_icon.png" alt="nieuwsbrief">Nieuws</a></li>
+        <li><a href="#"><img src="images/nav_group_icon.png" alt="Groep">Blijf in contact</a></li>
+        <li><a href="#">...</a></li>
+    </ul>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+  <h2>Hardware</h2>
+   <h3>Nintendo Switch 2</h3>
+    <a href="Overzicht.html">Overzicht</a>
+    <a href="Online.html">Functies</a>
+    <a href="#">GameChat</a>
+    <a href="#">GameShare</a>
+    <a href="#">Nintendo Switch 2 Games</a>
+    <a href="#">Nintendo Switch 2-accessoires</a>
+    <a href="#">Nintendo Switch 2-bundels</a>
+    <a href="#">Gegevens overdracht van een Nintendo Switch</a>
+   <h3>Nintendo Switch-familie</h3>
+    <a href="#">Overzicht</a>
+    <a href="#">Nintendo Switch - OLED-model</a>
+    <a href="#">Nintendo Switch</a>
+    <a href="#">Nintendo Switch Lite</a>
+    <a href="#">Welke Nintendo Switch past het beste bij je?</a>
+</div>
+
+/*------------------------------------------------------------------*/
+
+
+<main>
+
+<div class="OnlineHeader">
+
+  <img src="images/CI_NSwitch_NSO_Logo.png" alt="Nintendo nSwitch Online Logo">
+
+  <div class="tekstblok">
+    <h1>Haal meer uit je game-ervaring met Nintendo Switch Online</h1>
+    <p>
+      Haal nog meer uit je Nintendo Switch 2 en Nintendo Switch met online spelen, klassieke games, 
+      exclusieve voordelen en meer – allemaal beschikbaar met een Nintendo Switch Online-lidmaatschap!
+    </p>
+  </div>
+
+  <img src="images/CI_NSwitch_NSO_Overview.png" Alt="Overzicht van Nintendo Switch Online">
+
+</div>
+
+<div class="Proef"> 
+
+<h2>Activeer je gratis 7-daagse proefperiode vandaag!</h2>
+<button> Gratis Proefperiode Activeren</button>
+<p> Per Nintendo-account is er één gratis proefperiode beschikbaar. Het is tijdens de proefperiode niet 
+    mogelijk om Nintendo Switch-gamevouchers of klassieke controllers te kopen.</p>
+
+</div>
+
+<div class="Ontdek">
+
+  <h2>Ontdek wat Nintendo Switch Online te bieden heeft!</h2>
+
+  <div class="OntdekCardsRow">
+    <article class="OntdekCard">
+      <img src="images/CI_NSwitch_NSO_Overview_Online_Play_Splatoon_nl.png" alt="Splatoon spelen">    
+      <h3>Online spelen</h3>
+      <p>Neem het online op tegen rivalen of speel met vrienden in talloze ondersteunde Nintendo Switch 2 en Nintendo Switch-games, 
+      waaronder Mario Kart World, Super Mario Party Jamboree, Splatoon 3, en nog vele meer.</p>    
+    </article>
+
+    <article class="OntdekCard">
+      <img src="images/CI_NSwitch_NSO_Overview_Classic_Games.jpg" alt="Klassieke games"> 
+      <h3>Meer dan 190 klassieke games</h3>
+      <p>Krijg toegang tot een groeiende collectie van meer dan 190 NES-, Super NES- en Game Boy-games, waaronder Super Mario Bros. 3, 
+      Super Mario World en Tetris®. Je kunt in ondersteunde games zelfs met of tegen vrienden spelen via een online of lokale verbinding!</p>    
+    </article>
+
+    <article class="OntdekCard">
+      <img src="images/16x9_NSwitch_NSO_OnlinePlayExclusivebenefits_NoBorder.jpg" alt="Voordelen">    
+      <h3>Exclusieve voordelen</h3>
+      <p>Profiteer van een reeks voordelen, zoals de Nintendo Music-app voor smartapparaten, Games Op Proef, exclusieve games, 
+      Nintendo Switch-gamevouchers en fysieke producten die alleen te koop zijn voor leden van Nintendo Switch Online.</p>    
+    </article>
+  </div>
+
+
+<article class="GamechatCard">
+  <img src="images/CI_NSwitch2_NSO_Online_Play_GameChat.jpg" alt="Gamechat gebruiken">    
+
+  <div class="GamechatText">
+    <h3>GameChat</h3>
+    <p>Chat met vrienden, deel je scherm direct en zie elkaar tijdens het spelen door een compatibele USB-C-camera (apart verkrijgbaar) aan te sluiten! 
+    GameChat is exclusief voor de Nintendo Switch 2.</p>    
+    <p>Je moet een mobieletelefoonnummer registreren om GameChat te gebruiken. Voor het gebruik van GameChat dienen kinderen van een ouder of voogd toestemming te krijgen via de app 
+    'Ouderlijk toezicht voor Nintendo Switch'. Sommige onlinediensten zijn mogelijk niet in alle landen beschikbaar.</p>    
+  </div>
+</article>
+</div>
+
+<div class="Voordelen">
+
+  <h2>Geniet van nog meer voordelen!</h2>
+
+  <div class="VoordelenRow">
+    <img src="images/2x1_NSwitch_NSO_Expansionpack_6_Icon_nlNL.jpg" alt="Voordelen afbeelding">
+    <div class="VoordelenText">
+      <p>Met een lidmaatschap van <b>Nintendo Switch Online + Uitbreidingspakket</b> krijg je toegang tot alle voordelen die het standaard Nintendo Switch Online-lidmaatschap biedt, 
+        plus een groeiende collectie van klassieke Nintendo 64-, Game Boy Advance-, Virtual Boy- en SEGA Mega Drive-games, en toegang tot downloadbare content voor bepaalde 
+        Nintendo Switch-games. Spelers op de Nintendo Switch 2 krijgen ook toegang tot een groeiende collectie klassieke Nintendo GameCube-games, naast een selectie van upgradepacks 
+        voor Nintendo Switch 2 Editions!</p>
+        <a href="#">Meer info</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="lidmaatschap">
+
+  <h2>Kies het lidmaatschap dat bij je past</h2>
+  <p>Ontdek hieronder wat elk lidmaatschap te bieden heeft om te bepalen welk lidmaatschap het beste bij je past.</p>
+
+  <div class="lidmaatschapCardsRow">
+    <article class="lidmaatschapCard">
+      <img src="images/CI_NSwitch_NSO_Logo_ONLINE_Expansion_Pack_nl.png" alt="Card afbeelding">
+      <h3>Wissel je naar Nintendo Switch Online + Uitbreidingspakket?</h3>
+      <p>Als je al een Nintendo Switch Online-lidmaatschap hebt, krijg je korting op je nieuwe lidmaatschap.</p>
+      <a href="#">Bekijk de korting hier!</a>
+    </article>
+
+    <article class="lidmaatschapCard">
+      <img src="images/CI_NSwitch_NSO_Hardware_Home_Menu.png" alt="Card afbeelding">
+      <h3>Allemaal vanaf je spelsysteem!</h3>
+      <p>De Nintendo Switch Online-applicatie is beschikbaar vanuit het HOME-menu op je Nintendo Switch 2 of Nintendo Switch, waarmee je onlinediensten, 
+        het laatste nieuws en je huidige lidmaatschapsstatus kunt bekijken. Ook kun je naar MISSIES EN BELONINGEN gaan, waar je platina punten kunt verdienen 
+        om in te ruilen voor My Nintendo-beloningen of profielafbeeldingsstukjes!</p>
+    </article>
+  </div>
+
+</div>
+
+<div class="Vragen">
+
+  <div class="VragenHeader">
+    <img src="images/CI_NSwitch_NSO_Icons_FAQ.png" alt="FAQ Icon">
+    <h2>Veelgestelde Vragen</h2>
+  </div>
+
+  <p>Dit zijn enkele veelgestelde vragen (en antwoorden!) over Nintendo Switch Online en Nintendo Switch Online + Uitbreidingspakket.</p>
+
+  <div class="VragenButtons">
+    <button>Hoe koop of verleng ik een Nintendo Switch online-lidmaatschap? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Kan ik mijn Nintendo Switch online-lidmaatschapplan wijzigen? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Hoe koop of verleng ik een Nintendo Switch online-lidmaatschap? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Kan ik mijn Nintendo Switch online-lidmaatschapplan wijzigen? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Hoe koop of verleng ik een Nintendo Switch online-lidmaatschap? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Kan ik mijn Nintendo Switch online-lidmaatschapplan wijzigen? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Hoe koop of verleng ik een Nintendo Switch online-lidmaatschap? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+    <button>Kan ik mijn Nintendo Switch online-lidmaatschapplan wijzigen? <img src="images/favicon.png" alt="Mini Mario Sprite"></button>
+  </div>
+
+    <button class="VragenSupportButton">Meer info bij Nintendo support</button>
+</div>
+</main>
+
+<footer> 
+   
+    <div class="taal-balk">   
+        <img src="images/nintendo_logo.png" alt="Nintendo logo">
+        <span>Nederland</span>   
+    </div>
+    
+   
+    <div class="footer-links">
+       <a href="#"><p>Ouders en ouderlijk toezicht</p></a>
+       <a href="#"><p>Support</p></a>
+       <a href="#"><p>Over het bedrijf</p></a>
+       <a href="#"><p>Vacatures</p></a>
+       <a href="#"><p>Privacybeleid van de website</p></a>
+       <a href="#"><p>Cookie-instellingen</p></a>
+       <a href="#"><p>Wet- en regelgeving</p></a>
+       <a href="#"><p>Dienst beëindigen</p></a>
+       <a href="#"><p>MVO</p></a>
+       <a href="#"><p>Toegankelijkheidsverklaring</p></a>
+       <a href="#"><p>Contact</p></a>
+    </div>
+    
+   
+    <div class="copyright">
+        <p>© Nintendo. 2026</p>
+    </div>
+</footer>
+
+
+	<script defer src="script.js"></script>
+</body>
+	
+</html>
